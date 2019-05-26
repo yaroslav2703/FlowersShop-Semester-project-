@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="Flowershop.ThemesUserControl.rose"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flowershop.ThemesUserControl"
+        mc:Ignorable="d" d:DesignWidth="684.4" d:DesignHeight="827.621"
+    Height="auto">
+    <UserControl.Background>
+        <ImageBrush ImageSource="/images/Rose.jpg"/>
+    </UserControl.Background>
+    <ScrollViewer>
+        <Grid Opacity="0.5" Height="790" Width="616">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="237*"/>
+                <ColumnDefinition Width="42*"/>
+                <ColumnDefinition Width="36*"/>
+                <ColumnDefinition Width="114*"/>
+                <ColumnDefinition Width="187*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFB4EFFF" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="Розы" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="UltraBlack" Margin="37.493,9,87,8" Grid.ColumnSpan="3" Grid.Column="1"/>
+
+            <TextBlock Margin="40,42,10,-136" FontSize="18" TextWrapping="Wrap" Height="206" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="5">
+            Признанная королева цветов роза объединяет под своим названием несколько культурных форм растений.
+                Все они являются представителями рода Шиповник из семейства розовых. Декоративное цветоводство постоянно совершенствуется в селекции пород, стремясь к безупречности форм бутонов и разнообразию цветовой гаммы, о чем наглядно свидетельствует богатый выбор этих поразительных цветов в наши дни.
+            </TextBlock>
+
+            <Border Grid.Row="1" Background="White" UseLayoutRounding="True" CornerRadius="20" Margin="40,197,40,-183" Grid.ColumnSpan="5">
+                <TextBlock VerticalAlignment="Center" Margin="33,13,27,10" TextWrapping="Wrap" FontSize="18">
+               Чем пышнее, тем лучше?
+                </TextBlock>
+            </Border>
+
+            <TextBlock Grid.Row="1" Margin="40,244,10,-533" FontSize="18" TextWrapping="Wrap" Grid.ColumnSpan="5">            
+С незапамятных времен преподнесенная в дар роза всегда олицетворяла собой любовь и привязанность, однако сегодня эти совершенные цветы являются универсальным атрибутом всех наших праздников и торжеств. На день рождения, свадьбу, юбилей, восьмое марта и любое другое важное событие идеальные цветы – розы. Значение же трактуется в зависимости  от ситуации, может быть разнообразное: от выражения радости, благодарности и уважения, до  изъявления самых сокровенных чувств и эмоций. Интересно, что в прежние времена при составлении букета основывались на религиозных традициях, так количество роз в букете соответствовало самым чистым числам в христианстве – три, семь и двенадцать. Безусловно, и одна единственная, но безупречная во всех отношениях роза является и в наши дни яркой демонстрацией нежных чувств.
+            </TextBlock>
+
+
+            <TextBlock Grid.Row="1" Margin="10,646,10,-659" FontSize="18" TextWrapping="Wrap" Grid.ColumnSpan="5">            
+ Так букет из розовых роз способен намекнуть на чувство, которое, может разгореться в скором будущем.
+            </TextBlock>
+
+            <Border Grid.Row="1" Background="White" UseLayoutRounding="True" CornerRadius="20" Margin="40,594,40,-580" Grid.ColumnSpan="5">
+                <TextBlock VerticalAlignment="Center" Margin="31,10,29,13" TextWrapping="Wrap" FontSize="18">
+           Язык цвета краток, но красноречив
+                </TextBlock>
+            </Border>
+
+
+
+        </Grid>
+    </ScrollViewer>
+</UserControl>

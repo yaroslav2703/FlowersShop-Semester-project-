@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="Flowershop.ThemesUserControl.carnation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flowershop.ThemesUserControl"
+        mc:Ignorable="d"
+    Width="700" Height="800">
+    <UserControl.Background>
+        <ImageBrush ImageSource="/images/gvozdika.jpeg"/>
+    </UserControl.Background>
+    <ScrollViewer>
+        <Grid  Opacity="0.7" Height="790">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFB4EFFF" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="Гвоздики" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="UltraBlack" Margin="10"/>
+
+            <TextBlock Margin="40,42,40,-146" FontSize="18" TextWrapping="Wrap" Height="216" VerticalAlignment="Top" Grid.RowSpan="2">
+                Существует масса способов выразить свою заинтересованность объекту своего поклонения, один из самых красноречивых и действенных – это подарить гвоздики. Значение такого жеста на языке цветов истолковывается как очарование или увлеченность адресатом. Подаренные гвоздики также могут выражать благодарность и свидетельствовать о том, что Вы всегда и при любых обстоятельствах можете рассчитывать на их дарителя.
+            С древнейших времен люди использовали цветы для открытой демонстрации своих чувств, не избежала этой участи и гвоздика.</TextBlock>
+
+            <Border Grid.Row="1" Background="White" UseLayoutRounding="True" CornerRadius="20" Margin="40,216,40,-202">
+                <TextBlock VerticalAlignment="Center" Margin="33,13,27,10" TextWrapping="Wrap" FontSize="18">
+               Многочисленное семейство – более 300 видов
+                </TextBlock>
+            </Border>
+
+            <TextBlock Grid.Row="1" Margin="40,268,40,-522" FontSize="18" TextWrapping="Wrap" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="1.698"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="4.758"/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>            
+ Однако для многих из нас наиболее привычно описание гвоздики культивированной, цветок которой состоит из лепестков с длинными ноготками и зубчатой бахромой по краю. Любопытно, что латинское название рода Dianthus, данное Карлом Линнеем соответствует греческим словам δῖος (божественный) и ἄνθος (цветок). Его также называют цветком Зевса, он широко распространен в декоративном садоводстве и имеет многочисленные гибриды.
+
+Возвращаясь к символичности гвоздики: значение букета этих цветов помимо благодарности, также отождествляют с такими высокими понятиями как честь, верность и свобода. Поэтому неудивительно, что в советские времена неотъемлемым атрибутом празднования Дня Победы были гвоздики, значение которых ярко выражают дань благодарных поколений.
+            </TextBlock>
+
+
+            <TextBlock Grid.Row="1" Margin="40,626,10,-668" FontSize="18" TextWrapping="Wrap">            
+ Она идеально подходит для поздравлений по поводу как личных, так и профессиональных достижений. Если Вы хотите пожелать кому-то удачи и успеха во всех делах, это как раз то, что означает гвоздика белого цвета, желтая же просит получателя быть внимательнее к дарителю.
+            </TextBlock>
+
+            <Border Grid.Row="1" Background="White" UseLayoutRounding="True" CornerRadius="20" Margin="40,579,40,-565">
+                <TextBlock VerticalAlignment="Center" Margin="31,10,29,13" TextWrapping="Wrap" FontSize="18">
+              Цвет тоже имеет свой смысл
+                </TextBlock>
+            </Border>
+
+         
+        </Grid>
+    </ScrollViewer>
+</UserControl> 

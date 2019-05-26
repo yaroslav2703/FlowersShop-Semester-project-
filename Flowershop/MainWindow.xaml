@@ -1,0 +1,42 @@
+﻿<Window x:Class="Flowershop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flowershop"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" Height="700" Width="700" ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen"  WindowStyle="None">
+    <StackPanel>
+        <Grid Height="30">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="20 0">
+                <Button Content="Выйти из учетной записи" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFA2A2A2" FontSize="15" VerticalAlignment="Center" Click="exitUser_Click" />
+                <Button Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Center" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Click="closeForm_Click">
+                    <materialDesign:PackIcon Kind="Close" Foreground="#FFA2A2A2" Width="25" Height="25"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="50 0 50 0">
+                <Button x:Name="btnTheme" Uid="0" Width="158" Content="Ассортимент" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" FontSize="20" Click="Button_Click"/>
+                <Button x:Name="btnTest" Uid="1" Width="157" Content="Корзина" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" FontSize="20" Click="Button_Click"/>
+                <Button x:Name="btn" Uid="2" Width="157" Content="Заказы" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" FontSize="20" Click="Button_Click" RenderTransformOrigin="0.507,0.57"/>
+                <Button x:Name="btnhHelp" Uid="3" Width="150" Content="Обзор" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" FontSize="20" Click="Button_Click"/>
+            </StackPanel>
+
+            <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="50 -500 0 0"/>
+
+            <Grid x:Name="GridMain" Opacity="1" Height="620" Margin="0 50 0 0" Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+
+            </Grid>
+        </Grid>
+    </StackPanel>
+</Window>
+

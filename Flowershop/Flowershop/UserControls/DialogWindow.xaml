@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Flowershop.UserControls.DialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Flowershop.UserControls"
+        mc:Ignorable="d" Height="421.2" Width="519.6">
+    <Grid Margin="69,30,0,0">
+        <DataGrid ItemsSource="{Binding}" x:Name ="User_Grid" Height="253"  Margin="27,31,28,0" VerticalAlignment="Top" Background="#FFD4D0D0"/>
+        <Button Content="Показать" HorizontalAlignment="Left" Margin="188,326,0,0" VerticalAlignment="Top" Width="118" Click="Show_Button_Click"/>
+
+    </Grid>
+
+
+</UserControl>
+  
